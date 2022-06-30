@@ -40,6 +40,21 @@ Enter three words: abc 567 q12
 q12 567 abc
 
 
+import java.util.Scanner;
+public class main{
+  public static void main(String args[]){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter three words: ");
+    String one = scanner.next();
+    String two = scanner.next();
+    String three = scanner.next();
+    System.out.println(three + " " + two + " " + one);
+      
+  } 
+}
+
+
+
 5. Prompt the user for an integer n.
 Then prompt the user for n integers.
 Finally, print their sum.

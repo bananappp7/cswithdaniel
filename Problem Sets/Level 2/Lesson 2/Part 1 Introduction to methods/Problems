@@ -6,10 +6,10 @@
 
 
 2. Determine whether the following are true or false.
-  a. Calling a method in another method is allowed.
-  b. All methods must have parameters.
-  c. All methods must return something.
-  d. You can directly nest a method inside another method.
+  a. Calling a method in another method is allowed. //true
+  b. All methods must have parameters. //false
+  c. All methods must return something. //false
+  d. You can directly nest a method inside another method. //fakse
   e. Methods must be inside a class.
   f. You can always call a method inside of the parentheses of System.out.println();
   g. The main method must be the first method of a class.
